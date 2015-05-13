@@ -1,14 +1,16 @@
-from random impoprt random
-win=0
+from random import randint
+wins = 0
 
-for i in range (1000):
+for i in range(10000): #repeat the process a thousand times
   regions=0
-  randint(1,100)<=87:
-    regions=regions+1
-    randint(1,100)
-  if regions>=2:<=65:
-    regions=regions+1
-    if regions>=2:<=65:
-    print "you win the election"
-  else:
-    print "You did not win the elctions..."
+  if randint(1,100) <= 87:#region 1
+    regions = regions + 1 #add to the amount of wins
+   if randint(1,100) <= 65:#region 2
+    regions = regions + 1 #add to the amount of wins
+   if randint(1,100) <= 17:#region 3
+    regions = regions + 1 #add to the amount of wins
+  if regions >= 2:
+    wins = wins + 1
+
+percent = (wins/float(10000)) *100
+print "You won the election %s percent of the time" %(percent)
