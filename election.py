@@ -12,5 +12,5 @@ for i in range(10000): #repeat the process a thousand times
   if regions >= 2:
     wins = wins + 1
 
-percent = (wins/float(10000)) *100
+percent = (wins/float(10000)) *100#percent created
 print "You won the election %s percent of the time" %(percent)
