@@ -1,0 +1,7 @@
+from gopigo import*
+
+while 1<2:
+  while us_dist(15)>20:
+    fwd()
+  stop()
+  enc_tgt(1,0,15)
