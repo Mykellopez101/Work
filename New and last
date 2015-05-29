@@ -1,8 +1,12 @@
 from gopigo import*
-
+fwd(90)= foward
+servo(0)=left
+servo(180)=right
+servo(90)=center
 while 1<2:
   while us_dist(15)>20:
-    fwd(90)
+    foward(90)
   stop()
-  enc_tgt(1,0,15)
-  servo(0)
+    enc_tgt(1,0,15)
+    
+  
