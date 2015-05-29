@@ -2,6 +2,7 @@ from gopigo import*
 
 while 1<2:
   while us_dist(15)>20:
-    fwd()
+    fwd(90)
   stop()
   enc_tgt(1,0,15)
+  servo(0)
